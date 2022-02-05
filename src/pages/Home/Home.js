@@ -8,6 +8,7 @@ import './Home.css';
 function Home() {
 
   const [categoriesList,setCategoriesList] = useState([]);
+  
 
   useEffect(() => {
     const fetchCategories = async () => {

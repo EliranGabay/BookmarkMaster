@@ -44,7 +44,7 @@ function Category(props) {
         </Nav.Item>
         </Nav>
         <Container>
-            { bookmarksList.length && bookmarksList.map((data,index)=>{
+            { !bookmarksList.length? null : bookmarksList.map((data,index)=>{
              return(<Row key={index}><Bookmark  title={data.name} link={data.URL} icon={data.icon} edit={edit} markId={data.id}/></Row>)
             })}
         </Container>
@@ -62,7 +62,7 @@ function Category(props) {
         </Nav.Item>
         </Nav>
         <Container>
-            {bookmarksList.length && bookmarksList.map((data,index)=>{
+            {!bookmarksList.length? null : bookmarksList.map((data,index)=>{
              return(<Row key={index}><Bookmark  title={data.name} link={data.URL} icon={data.icon}/></Row>)
             })}
         </Container>
