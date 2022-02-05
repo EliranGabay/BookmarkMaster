@@ -34,7 +34,7 @@ function Category(props) {
     <div>
         <Nav className="topNar">
         <Nav.Item style={{paddingLeft:10}}>
-            <h1>{props.categoryName}</h1>
+            <h1 className="titelEdit">{props.categoryName}</h1>
         </Nav.Item>
         <Nav.Item className="navDrop">
           <ButtonGroup className="nav-buttons">
@@ -55,7 +55,7 @@ function Category(props) {
     <div>
         <Nav className="topNar">
         <Nav.Item style={{paddingLeft:10}}>
-            <h1>{props.categoryName}</h1>
+            <h1 className="titel">{props.categoryName}</h1>
         </Nav.Item>
         <Nav.Item className="navDrop">
           <img className="nav-edit" src="https://img.icons8.com/color/48/000000/gear.png" onClick={()=>setEdit(true)} alt="Edit"/>
