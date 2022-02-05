@@ -1,0 +1,35 @@
+.categoryCard{
+    border: 1px solid;
+    border-color: black;
+    min-height: 250px;
+    margin-top: 10px;
+}
+.topNar{
+    background-color: rgb(56, 56, 56);
+}
+.icon{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.nav-edit{
+    margin-top: 10px;
+    margin-right: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.nav-buttons{
+    margin-right: 4px;
+}
+Button{
+    margin-top: 8px;
+    margin-right: 4px;
+    color: #fff;
+}
+.navDrop{
+    margin-left: auto;
+}
+h1{
+    color: #fff;
+}

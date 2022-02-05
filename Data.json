@@ -1,0 +1,148 @@
+{
+  "categories": [
+    {
+      "name": "Google",
+      "id": 5
+    },
+    {
+      "name": "News",
+      "id": 6
+    },
+    {
+      "name": "Social",
+      "id": 7
+    },
+    {
+      "name": "Tech",
+      "id": 9
+    },
+    {
+      "name": "Shopping",
+      "id": 11
+    }
+  ],
+  "bookmarks": [
+    {
+      "name": "GoogleDrive",
+      "URL": "https://drive.google.com/",
+      "icon": "https://img.icons8.com/color/48/000000/google-drive",
+      "tags": {},
+      "categoryId": 5,
+      "id": 3
+    },
+    {
+      "name": "FaceBook",
+      "URL": "https://www.facebook.com/",
+      "icon": "https://img.icons8.com/color/48/000000/facebook",
+      "tags": {},
+      "categoryId": 7,
+      "id": 4
+    },
+    {
+      "name": "Google",
+      "URL": "https://www.google.com/",
+      "icon": "https://img.icons8.com/color/48/000000/google-logo",
+      "tags": {},
+      "categoryId": 5,
+      "id": 9
+    },
+    {
+      "name": "Linkedin",
+      "URL": "https://www.linkedin.com/",
+      "icon": "https://img.icons8.com/color/48/000000/linkedin",
+      "tags": {},
+      "categoryId": 7,
+      "id": 11
+    },
+    {
+      "name": "BBC",
+      "URL": "https://www.bbc.com/",
+      "icon": "https://img.icons8.com/color/48/000000/bbc",
+      "tags": {},
+      "categoryId": 6,
+      "id": 13
+    },
+    {
+      "name": "Yahoo",
+      "URL": "https://www.yahoo.com/",
+      "icon": "https://img.icons8.com/color/48/000000/yahoo",
+      "tags": {},
+      "categoryId": 6,
+      "id": 14
+    },
+    {
+      "name": "Amazon",
+      "URL": "https://www.amazon.com/",
+      "icon": "https://img.icons8.com/color/48/000000/amazon",
+      "tags": {},
+      "categoryId": 11,
+      "id": 15
+    },
+    {
+      "name": "IBM",
+      "URL": "https://www.ibm.com/",
+      "icon": "https://img.icons8.com/color/48/000000/ibm",
+      "tags": {},
+      "categoryId": 9,
+      "id": 16
+    },
+    {
+      "name": "Waze",
+      "URL": "https://www.waze.com/",
+      "icon": "https://img.icons8.com/color/48/000000/waze",
+      "tags": {},
+      "categoryId": 9,
+      "id": 17
+    },
+    {
+      "name": "Aliexpress",
+      "URL": "https://www.aliexpress.com/",
+      "icon": "https://img.icons8.com/color/48/000000/aliexpress",
+      "tags": {},
+      "categoryId": 11,
+      "id": 19
+    },
+    {
+      "name": "Ebay",
+      "URL": "https://www.ebay.com/",
+      "icon": "https://img.icons8.com/color/48/000000/ebay",
+      "tags": {},
+      "categoryId": 11,
+      "id": 20
+    },
+    {
+      "name": "Youtube",
+      "URL": "https://www.youtube.com/",
+      "icon": "https://img.icons8.com/color/48/000000/youtube",
+      "tags": {},
+      "categoryId": 7,
+      "id": 21
+    }
+  ],
+  "tags": [
+    {
+      "name": "Food"
+    },
+    {
+      "name": "Tools"
+    },
+    {
+      "name": "Business"
+    },
+    {
+      "name": "New"
+    },
+    {
+      "name": "Popular"
+    },
+    {
+      "name": "Creative"
+    },
+    {
+      "name": "Old"
+    },
+    {
+      "name": "Main"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+a{
+    text-decoration:none;
+    padding-left: 5px;
+}
+img{
+    width: 30px;
+}
+.bookmark{
+    margin-top: 10px;
+    padding-bottom: 2px;
+    border-bottom: 0.5px solid;
+    border-color: darkgray;
+}
+.label-buttons{
+    margin-bottom: 5px;
+    margin-top: -10px;
+    margin-left: auto;
+}
+.label-btn{
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
