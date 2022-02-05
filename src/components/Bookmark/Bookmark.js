@@ -36,6 +36,7 @@ function Bookmark(props) {
         </Col>
       </Row>
   );
+
   const NormalMode = () => (
     <>
     <img src={props.icon} 
@@ -46,6 +47,7 @@ function Bookmark(props) {
     <a href={props.link} target="_blank" rel="noreferrer">{props.title} </a>
     </>
   );
+  
   return (
     <>
     <Col className="bookmark">

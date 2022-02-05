@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Category from '../../components/Category/Category';
 import { Row, Col } from 'react-bootstrap';
 import CategoriesService from "../../services/categoriesService";
@@ -24,7 +24,7 @@ function Home() {
   return (
     <div id="category-list">
       <SubNavigation/>
-      <Row xs={1} md={2} lg={3}  style={{paddingTop: 10, paddingLeft: 5,paddingRight: 5}}>
+      <Row xs={1} md={2} lg={3} style={{paddingTop: 10, paddingLeft: 5,paddingRight: 5}}>
           {categoriesList && categoriesList.map((data,index)=>{
              return(<Col key={index}><Category categoryId={data.id} categoryName={data.name}/></Col>)
           })}

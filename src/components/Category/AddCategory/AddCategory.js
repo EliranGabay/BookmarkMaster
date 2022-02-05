@@ -1,4 +1,4 @@
-import React, {useState } from 'react';
+import React, { useState } from 'react';
 import { Modal, Button, Form, Container, InputGroup } from 'react-bootstrap';
 import CategoriesService from "../../../services/categoriesService";
 import './AddCategory.css';
